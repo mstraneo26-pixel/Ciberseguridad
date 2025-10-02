@@ -1,58 +1,37 @@
-Actividad: Simulación de Respuesta a Incidentes
-Objetivo:
+Escenario del incidente:
 
-Que los participantes comprendan las fases de la respuesta a incidentes y practiquen cómo actuar frente a un ataque cibernético realista.
+La empresa ficticia TechData ha detectado comportamientos anómalos.
 
-Instrucciones:
+Varios empleados recibieron correos sospechosos con archivos adjuntos.
 
-Divide a los participantes en equipos:
+Un servidor crítico muestra un consumo de CPU elevado.
 
-Equipo Azul (Defensores / SOC): Encargados de responder al incidente.
+Se registran accesos desde direcciones IP externas no autorizadas.
 
-Equipo Rojo (Atacantes / Escenario): Representan la amenaza.
+Su misión será responder al incidente como si fueran el equipo de ciberseguridad de la empresa.
 
-Equipo Observador: Evalúa las decisiones tomadas.
-
-(Si el grupo es pequeño, todos pueden asumir solo el rol de Equipo Azul).
-
-Presenta el escenario del incidente (ejemplo):
-
-La empresa TechData detecta que varios usuarios han recibido correos sospechosos con un archivo adjunto. Tras unas horas, un servidor crítico muestra un consumo de CPU inusual y accesos desde direcciones IP externas no autorizadas.
-
-Fases de trabajo (basado en el ciclo NIST de respuesta a incidentes):
+Fases de trabajo (NIST):
 
 1. Detección y Análisis:
-
-¿Qué indicadores de compromiso encuentran?
-
-¿Cómo confirmarían que es un ataque?
+Identifiquen los indicadores de compromiso. ¿Qué evidencias usarían para confirmar el ataque?
 
 2. Contención:
-
-¿Qué acciones tomarían para detener la propagación?
-
-Ejemplo: aislar el servidor, bloquear direcciones IP, cortar el tráfico.
+¿Qué medidas aplicarían para detener la propagación? (Ejemplo: aislar el servidor, bloquear IPs, deshabilitar cuentas).
 
 3. Erradicación y Recuperación:
-
-¿Cómo limpiarían el malware o accesos no autorizados?
-
-¿Qué medidas aplicarían antes de restaurar los sistemas?
+¿Cómo limpiarían el sistema comprometido? ¿Qué acciones tomarían antes de restaurar servicios?
 
 4. Lecciones Aprendidas:
+¿Qué falló en la seguridad de la empresa? ¿Qué controles y políticas implementarían para que no vuelva a ocurrir?
 
-¿Qué falló en los controles previos?
-
-¿Qué políticas o herramientas implementarían para evitar que se repita?
-
-Entrega final del equipo Azul
-Cada equipo debe elaborar un Informe de Respuesta al Incidente, que contenga:
+Entrega:
+Cada equipo debe elaborar un Informe de Respuesta al Incidente, que incluya:
 
 Resumen del incidente
 
-Acciones tomadas en cada fase
+Acciones realizadas en cada fase
 
 Recomendaciones de mejora
 
-Discusión en grupo
-El instructor o facilitador comenta las respuestas, destacando buenas prácticas (ej. comunicación interna, priorización de activos críticos, rapidez en la detección).
+Discusión final:
+Al terminar, discutiremos en conjunto las respuestas de cada equipo. Yo iré señalando qué buenas prácticas aplicaron y qué se podría mejorar.
