@@ -1,0 +1,58 @@
+Actividad: Simulación de Respuesta a Incidentes
+Objetivo:
+
+Que los participantes comprendan las fases de la respuesta a incidentes y practiquen cómo actuar frente a un ataque cibernético realista.
+
+Instrucciones:
+
+Divide a los participantes en equipos:
+
+Equipo Azul (Defensores / SOC): Encargados de responder al incidente.
+
+Equipo Rojo (Atacantes / Escenario): Representan la amenaza.
+
+Equipo Observador: Evalúa las decisiones tomadas.
+
+(Si el grupo es pequeño, todos pueden asumir solo el rol de Equipo Azul).
+
+Presenta el escenario del incidente (ejemplo):
+
+La empresa TechData detecta que varios usuarios han recibido correos sospechosos con un archivo adjunto. Tras unas horas, un servidor crítico muestra un consumo de CPU inusual y accesos desde direcciones IP externas no autorizadas.
+
+Fases de trabajo (basado en el ciclo NIST de respuesta a incidentes):
+
+1. Detección y Análisis:
+
+¿Qué indicadores de compromiso encuentran?
+
+¿Cómo confirmarían que es un ataque?
+
+2. Contención:
+
+¿Qué acciones tomarían para detener la propagación?
+
+Ejemplo: aislar el servidor, bloquear direcciones IP, cortar el tráfico.
+
+3. Erradicación y Recuperación:
+
+¿Cómo limpiarían el malware o accesos no autorizados?
+
+¿Qué medidas aplicarían antes de restaurar los sistemas?
+
+4. Lecciones Aprendidas:
+
+¿Qué falló en los controles previos?
+
+¿Qué políticas o herramientas implementarían para evitar que se repita?
+
+Entrega final del equipo Azul
+Cada equipo debe elaborar un Informe de Respuesta al Incidente, que contenga:
+
+Resumen del incidente
+
+Acciones tomadas en cada fase
+
+Recomendaciones de mejora
+
+Discusión en grupo
+El instructor o facilitador comenta las respuestas, destacando buenas prácticas (ej. comunicación interna, priorización de activos críticos, rapidez en la detección).
